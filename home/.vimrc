@@ -36,6 +36,7 @@ Bundle 'scrooloose/syntastic'
 Bundle 'tomtom/tcomment_vim'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'rson/vim-conque'
 
 """ Custom Configs include.
 " All custom config settings are stored in the .vim/config folder to
