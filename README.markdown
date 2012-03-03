@@ -102,6 +102,30 @@ Autoclose automatically creates closing parens, braces, what-have-you when you
 enter the corresponding opening pair. It generally saves you a lot of typing.
 Run `:help AutoClose.txt` if you want more information about this plugin.
 
+### BufExplorer ###
+
+BufExplorer is a quick way to switch around between windows. You can run `:help
+bufexplorer` to see the full information, or just make use of the `<Leader>be`
+keybinding to bring up the BufExplorer window while you've got a few buffers
+open to see it in action.
+
+BufExplorer is configured in `vim/config/bufexplorer.vim`
+
+### BufOnly ###
+
+BufOnly is a simple plugin that closes all buffers but the currently open one.
+Useful for when you've got a bunch of buffers open that aren't pertinent any
+more (e.g. you're switching to a different project now, etc.). I've mapped the
+BufOnly command to the `<Leader>bo` keychain.
+
+### CamelCaseMotion ###
+
+CamelCaseMotion defines keybindings for motions that work on camel-case words
+(and underscore-separated words). e.g., by default, `w` goes to the end of the
+word, even if that word is CamelCasedLikeThis. Using CamelCaseMotion, you can
+use `,w` to move to the next part of the CamelCasedWord. `:help camelcasemotion`
+for more information.
+
 ### Ctrl-P ###
 
 Ctrl-P is a plugin that does fuzzy file-finding for you. It does this in a few
@@ -109,6 +133,15 @@ modes, the ones I use most are the standard file finder (bound to `;t`) and the
 MRU finder (most recently used - it searches through files you've opened
 recently, which is bound to `;b`). Run `:help ctrlp` to read more about this
 plugin.
+
+### EasyMotion ###
+
+EasyMotion provides a much simpler way to use some motions in vim. It takes the
+<number> out of <number>w or <number>f{char} by highlighting all possible
+choices and allowing you to press one key to jump directly to the target.
+
+When one of the available motions is triggered, all visible text preceding or
+following the cursor is faded, and motion targets are highlighted.
 
 ### Endwise ###
 
@@ -146,6 +179,18 @@ plugin adds it in. I don't use it often and try not to write code where it would
 be necessary, but sometimes it's helpful. `;ig` toggles the indent guides.
 `:help indent-guides` will give you more information if you're interested.
 
+### NERDCommenter ###
+
+NERDCommenter is a nice plugin that allows you to comment/uncomment lines of
+code quickly and easily. I've set up a keybinding for it so that `<Leader>c`
+will toggle the comment status ofthe current line of code (that is, comment it
+if it's not already commented, or uncomment it if it is already commented).
+This also works with line-motion commands - for example, `3<Leader>c` will
+comment the next 3 lines of code, `G<Leader>c` will comment every line until
+the end of the file, etc. You can run `:help NERDCommenter` to see the help
+info, and check out the config changes I've made in
+`vim/config/nerdcommenter.vim`.
+
 ### NERDTree ###
 
 NERDTree is the second-most useful plugin I have, after Fugitive. NERDTree acts
@@ -172,6 +217,12 @@ rails` if you're interested.
 
 Repeat.vim is basically a utility plugin that makes actions some other plugins
 take repeatable using `.` like normal vim operations.
+
+### SnipMate ###
+
+SnipMate gives you snippets - pieces of often typed text you can insert into
+your document using a trigger word. Checkout the help files (`:help snipmate`)
+or view the plugin's website at vim.org for more specifics.
 
 ### Solarized ###
 
@@ -200,6 +251,13 @@ with Powerline. `:help syntastic` for more info.
 ### Tabular.vim ###
 
 I like vertically aligning assignment for quicker visual parsing.
+
+### Tagbar ###
+
+Tagbar is a vim plugin for browsing the tags of source code files. It provides
+a sidebar that displays the ctags-generated tags of the current file, ordered
+by their scope. This means that for example methods in C++ are displayed under
+the class they are defined in.
 
 ### Tomdoc.vim ###
 

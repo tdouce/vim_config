@@ -1,6 +1,7 @@
 " Use <Leader><Leader> as a shortcut to enter commands (faster and less strain
 "  than hitting Shift-: in most cases).
-nnoremap <Leader><Leader> :
+" nnoremap <Leader><Leader> :
+" conflicts with easymotion plugin
 
 """ Writing Buffers / Quitting
 """"""""""""""""""""""""""""""
@@ -38,3 +39,23 @@ map <Leader>l <C-W>l
 """ it will always be the top-left most window when it's toggled.
 """ So in practice, this binds <TAB> to navigate to the NERDTree window.
 map <TAB> 1<C-W><C-W>
+
+" use <Leader>C to display hidden chars
+map <Leader>C :set list!<CR>
+
+" make escape, <Esc> easier, to hit
+inoremap jj <Esc>
+
+" switch ' and `, because:
+" ' jumps to the start of the line where a mark is
+" ` jumps to the exact location of a mark
+" because jumping to the exact location is more useful,
+" I like it to be closer to the home row, so I switch the keys.
+noremap ' `
+noremap ` '
+
+" Edit another file in the same directory as the current file
+" uses expression to extract path from current file's path
+map <Leader>e :e <C-R>=expand("%:p:h") . '/'<CR>
+map <Leader>s :split <C-R>=expand("%:p:h") . '/'<CR>
+map <Leader>v :vnew <C-R>=expand("%:p:h") . '/'<CR>""

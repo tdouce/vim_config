@@ -2,7 +2,7 @@
 syntax enable
 
 " Use a dark background.
-set background=dark
+set background=light
 
 " Use the solarized colorscheme.
 colorscheme solarized
