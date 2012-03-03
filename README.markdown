@@ -3,7 +3,7 @@
 ## INTRODUCTION ##
 
 This is a vim configuration created by [duwanis](http://www.duwanis.com
-"Duwanis.com").
+"Duwanis.com") and modified by [wallace](http://github.com/wallace/vim_config).
 
 It's mostly geared towards doing Ruby development on an OS X machine; hence a
 lot of the configurations are Ruby-specific and/or depend on functionality
@@ -172,12 +172,6 @@ rails` if you're interested.
 
 Repeat.vim is basically a utility plugin that makes actions some other plugins
 take repeatable using `.` like normal vim operations.
-
-### RVM.vim ###
-
-I use RVM to manage my Rubies, and RVM.vim allows me to put the current rvm
-version in my statusline. It also provides a few vim commands to let you switch
-RVM versions from inside vim - run `:help rvm` to read more.
 
 ### Solarized ###
 
