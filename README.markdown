@@ -197,6 +197,10 @@ vim for you whenever something's awry. It's a great sanity check even if it is
 perhaps a bit over-zealous on HTML-type files... and it integrates fabulously
 with Powerline. `:help syntastic` for more info.
 
+### Tabular.vim ###
+
+I like vertically aligning assignment for quicker visual parsing.
+
 ### Tomdoc.vim ###
 
 I've started using TomDoc for documenting my Ruby code, and wanted a syntax file

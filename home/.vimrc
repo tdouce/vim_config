@@ -32,6 +32,7 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'ervandew/supertab'
 Bundle 'tpope/vim-surround'
 Bundle 'scrooloose/syntastic'
+Bundle 'godlygeek/tabular'
 Bundle 'duwanis/tomdoc.vim'
 
 """ Custom Configs include.
