@@ -34,10 +34,11 @@ try it out yourself. That's cool. Here's how:
    `homesick clone your_github_username/vim_config` (assuming you
    cloned it on github)
 4. Symlink it using homesick: `homesick symlink your_github_username/vim_config`
-5. Open vim. There will be errors this first time because you haven't
+5. Install vundle if you haven't already: `git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle`
+6. Open vim. There will be errors this first time because you haven't
    installed any of the plugins yet. Run `:BundleInstall` to tell Vundle to
    install all of the packages for you (more on Vundle below).
-6. Restart vim. Enjoy.
+7. Restart vim. Enjoy.
 
 ## FEATURES ##
 
