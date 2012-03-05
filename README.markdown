@@ -219,6 +219,14 @@ rails` if you're interested.
 Repeat.vim is basically a utility plugin that makes actions some other plugins
 take repeatable using `.` like normal vim operations.
 
+### Slurper ###
+
+slurper.vim was written as a companion to the slurper gem
+(http://github.com/hashrocket/slurper).  The slurper gem allows you compose
+stories in a plain text file and then slurp them into Pivotal Tracker through
+the api in bulk. You will need to install the slurper gem for slurper.vim to be
+useful.
+
 ### SnipMate ###
 
 SnipMate gives you snippets - pieces of often typed text you can insert into
