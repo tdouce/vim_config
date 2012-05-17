@@ -40,6 +40,18 @@ try it out yourself. That's cool. Here's how:
    install all of the packages for you (more on Vundle below).
 7. Restart vim. Enjoy.
 
+## Adding Additional Plugins After Initial Setup ##
+
+After the intial setup (possibly weeks or months later), you realize you want
+to add more plugins. Here's how (assuming the plugin is on Github and you 
+followed the above installation):
+
+1. Find the plugin on Github.
+2. In ```.homesick/repos/your_github_username/vim_config/.vimrc``` add the name 
+   of the plugin (as it appears on the Github repository page)to the section where 
+   you see ```Bundle 'name_of_plugin_as_it_appears_on_Github```.
+3. Run ```:BundleInstall```
+
 ## FEATURES ##
 
 Some of the general changes to default Vim functionality:
