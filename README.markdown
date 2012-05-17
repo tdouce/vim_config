@@ -48,9 +48,10 @@ followed the above installation):
 
 1. Find the plugin on Github.
 2. In ```.homesick/repos/your_github_username/vim_config/.vimrc``` add the name 
-   of the plugin (as it appears on the Github repository page)to the section where 
+   of the plugin (as it appears on the Github repository page) to the section where 
    you see ```Bundle 'name_of_plugin_as_it_appears_on_Github```.
 3. Run ```:BundleInstall```
+4. Restart vim. 
 
 ## FEATURES ##
 
