@@ -61,8 +61,23 @@ Bundle 'jnwhiteh/vim-golang'
 " differentiate them from 3rd-party libraries.
 runtime! config/**/*
 
-imap <c-l> <space>=><space> " insert hash rocket with <c-l>
-"imap <c-b> binding.pry " insert hash rocket with <c-b>
+" insert hash rocket with:
+"  insert mode, hold down cntrl+l
+imap <c-l> <space>=><space>
+" in insert mode, insert 'binding.pry' with <c-b>
+imap <c-b> binding.pry
+" in insert mode, insert '# ' with <c-c>
+imap <c-c> #<space>
 
 " Go config
 set runtimepath+=$GOROOT/misc/vim
+
+""" Resizing Panes
+" make horizonal page full size
+map <Leader>f :res 90<CR>
+" reset panes to equal sizes
+map <Leader>ff =<CR>
+" make vertical page full size
+map <Leader>vf :vertical resize 200<CR>
+" remove trailing whitespaces
+map <Leader>rtw :%s/\s\+$//<CR>
