@@ -18,6 +18,7 @@ Bundle 'gmarik/vundle'
 " All of these references are to github repositories unless otherwise noted.
 Bundle 'ntpeters/vim-better-whitespace'
 Bundle 'vim-scripts/ack.vim'
+Bundle 'vim-scripts/ack.vim'
 Bundle 'Townk/vim-autoclose'
 Bundle 'corntrace/bufexplorer'
 Bundle 'duff/vim-bufonly'
