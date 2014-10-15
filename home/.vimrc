@@ -74,6 +74,8 @@ imap <c-d> debugger
 imap <c-c> #<space>
 " in insert mode, insert '# QUESTION ' with <c-q>
 imap <c-q> # QUESTION:<space>
+" in insert mode, insert '# TODO' with <c-q>
+imap <c-t> # TODO:<space>
 
 " Go config
 set runtimepath+=$GOROOT/misc/vim
