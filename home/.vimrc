@@ -68,6 +68,8 @@ runtime! config/**/*
 imap <c-l> <space>=><space>
 " in insert mode, insert 'binding.pry' with <c-b>
 imap <c-b> binding.pry
+" in insert mode, insert 'debugger' with <c-d>
+imap <c-d> debugger
 " in insert mode, insert '# ' with <c-c>
 imap <c-c> #<space>
 
