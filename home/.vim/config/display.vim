@@ -21,3 +21,4 @@ autocmd WinLeave * setlocal nocursorcolumn
 
 "match ErrorMsg '\s\+$'  " highlight trailing whitespace as error
 set colorcolumn=80,100  " add column at 80 and 100 characters
+set transparency=0
