@@ -81,4 +81,4 @@ map <Leader>ff =<CR>
 " make vertical page full size
 map <Leader>vf :vertical resize 200<CR>
 " remove trailing whitespaces
-map <Leader>rtw :%s/\s\+$//<CR>
+"map <Leader>rtw :%s/\s\+$//<CR>
