@@ -3,7 +3,8 @@
 if has("gui_running")
    " If you're using MacVim, you'll want to use the experimental renderer for
    " this
-   set transp=5
+   "set transp=5
+   set transp=0
   
    "" gui options
    " a - Autoselect
