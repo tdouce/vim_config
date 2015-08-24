@@ -77,7 +77,6 @@ imap <c-t> # TODO:<space>
 " js for loop
 imap <c-f> for (i = 0; i < collection.length; i++){ var item = collection[i]; }<space>
 
-
 " Go config
 set runtimepath+=$GOROOT/misc/vim
 
